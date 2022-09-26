@@ -1,0 +1,113 @@
+HTML
+1. What do HTML and CSS stand for?
+A: HyperText Markup Language & Cascading Style Sheets
+
+
+2. Would you rather use HTML or CSS, for putting paragraphs of text on a webpage?
+A: HTML
+
+
+3. Would you rather use HTML or CSS, to change the font and background color of a
+button?
+A: CSS
+
+
+4. What is an HTML tag?
+A: Is the container of all other tags 
+
+
+5. What are the three parts of an HTML element? (image from paragraph)
+A: Opening Tag, Content, Closing Tag
+
+
+6. What is the purpose of the doctype declaration?
+A: It shows the browser which HTML version is used
+
+
+7. What is the HTML element?
+A: The root element of the document
+
+
+8. What is the purpose of the head element?
+A: It stores meta-information about the webpage, so the page can render correctly
+
+
+9. What is the purpose of the body element?
+A:Is the place where all HTML content(links,images etc) will go
+
+
+10. How do you create a paragraph in HTML?
+A: Using the p tag
+
+
+11. How do you create a heading in HTML?
+A: Using the h tag
+
+
+12. How many different levels of headings are there and what is the difference between
+them?
+A: h1-h6 : h1 is the biggest, h6 the smallest
+
+
+13. What element should you use to make text bold and important?
+A: strong
+
+
+14. What element should you use to make text italicized to add emphasis to it?
+A: em
+
+
+15. What relationship does an element have with any nested elements within it?
+A:parent-child
+
+
+16. What relationship do two elements have if they are at the same level of nesting?
+A:siblings
+
+
+17. How do you create HTML comments?
+A: using <!-- -->
+
+
+18. What HTML tag is used to create an unordered list?
+A:<ul>
+
+
+19. What HTML tag is used to create an ordered list?
+A: <ol>
+
+
+20. What HTML tag is used to create list items within both unordered and ordered lists?
+A:<li>
+
+
+21. What element is used to create a link?
+A:<a>
+
+
+22. What is an attribute?
+A: Is an aditional information about the tag
+
+
+23. What attribute tells links where to go?
+A: href
+
+
+24. What is the difference between an absolute and relative link?
+A: A relative link to webpages in our site, an absolute link links to webpages on the internet
+
+
+25. Which element is used to display an image?
+A: <img>
+
+
+26. What two attributes do images always need to have?
+A: src & alt
+
+27. How do you access a parent directory in a file path?
+A: Using ../
+
+
+28. What are the four main image formats that you can use for images on the web?
+A: JPG,PNG,GIF, SVG
+
