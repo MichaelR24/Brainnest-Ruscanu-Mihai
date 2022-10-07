@@ -1,7 +1,6 @@
 #container{
     height: 100%;
     width: 100%;
-  
     position:absolute;
     top:0px;
     right:0px;
@@ -9,47 +8,45 @@
     left:0px;
 
 }
+
 #firstdiv{
     height: 400px;
     width: 100%;
-   
-    margin-bottom: 5%;
-   
+    margin-bottom: 5%;  
 }
+
 #upper-first{
     height: 15%;
     width: 100%;
     background-color: #1f2973;
 
 }
+
 #logo{
     height: 100%;
     width: 20%;
-    
     float: left;
     margin-left: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 #logo h3{
     color: #f9faf8;
     font-size: 24px;
-    
 }
 
 #navbar{
     height: 100%;
     width: 40%;
-   
     float: right;
     margin-right: 10%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-
 }
+
 #navbar a{
     text-decoration: none;
     font-size: 18px;
@@ -57,6 +54,7 @@
     font-weight: bold;
     
 }
+
 #navbar a:hover{
     color: #3882f6;
 }
@@ -69,20 +67,18 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 #center-area{
     height: 75%;
     width: 80%;
-    
     display: flex;
-    
-    
 }
+
 #heading-area-main{
     height: 100%;
     width: 50%;
-    
-  
 }
+
 #heading-area-main h1{
     font-size: 58px;
     font-weight: bolder;
@@ -91,89 +87,77 @@
    margin-bottom: 0%;
     margin-top: 0%;
 }
+
 #heading-area-main p{
     font-size: 18px;
     color: #e5e7eb;
     margin-top: 0;
     margin-bottom: 0;
 }
+
 #placeholder-image{
     height: 100%;
     width: 50%;
     background-color: red;
-    
     display: flex;
     justify-content: center;
-
-
 }
+
 #placeholder-image img{
     width: 100%;
     height: auto;
-
 }
-
-
-
 
 #seconddiv{
     height: 500px;
     width: 100%;
-  
-    
-    
-    
-    
     clear: both;
 }
+
 #title{
     height: 20%;
     width: 100%;
-  
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
+
 #title h1{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2973;   
 }
+
 #container-items{
     height: 80%;
     width: 100%;
-
     display: flex;
-    
     justify-content: center;
     align-items: center;
     gap: 3%;
 }
+
 .random-item{
     height: 60%;
     width: 12%;
-    
     border-radius: 10px;
-   
-    
 }
+
 .image-random{
     height: 70%;
     width: 100%;
     background-color: white;
-   
     border: none;
-    
     display: flex;
     justify-content: center;
-
 }
+
 .image-random img{
     width: 100%;
     border-radius: 10px;
     height: auto;
 }
+
 .random-paragraph{
     overflow: hidden;
     height: 30%;
@@ -181,6 +165,7 @@
     text-align: center;
     font-size: 15px;
 }
+
 .random-paragraph p{
     font-size: 15px;
     font-weight: bold;
@@ -188,48 +173,37 @@
     margin-top: 5%;
 }
 
-
-
 #thirddiv{
     height: 350px;
     width: 100%;
     background-color: #e5e7eb;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #quote{
     height: 70%;
     width: 70%;
-    
-  
-   
     text-align: center;
-  
-   flex-direction: column;
+    flex-direction: column;
     display: flex;
-
     align-items: center;
     justify-content: center;
     position: relative;
-
-
-   
 }
+
 #p-quote{
     margin: 0;
     padding: 0;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    
     color: #1f2973;
-    
 }
+
 #author{
     margin: 0;
-    
     align-self: flex-end;
     font-size: 20px;
     font-weight: bold;
@@ -240,49 +214,46 @@
 #fourthdiv{
     height: 350px;
     width: 100%;
-   
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
 #call-to-action{
     height: 40%;
     width: 60%;
     background-color: #3882f6;
     display: flex;
-    
     justify-content: space-evenly;
     align-items: center;
     gap: 2%;
-    
     border-radius: 10px;
 }
+
 #it-is-time{
     height: 60%;
     width: 60%;
     color: white;
 }
+
 #it-is-time h2{
- 
     font-weight: bold;
     margin-bottom: 0;
-   
 }
+
 #it-is-time p{
     margin-top: 0;
-  
 }
+
 #button-sign-up{
     height: 60%;
-    width: 30%;
-  
+    width: 30%;  
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    
-    
 }
+
 #footer{
     height: 100px;
     width: 100%;
@@ -291,12 +262,12 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 #footer p{
     font-size: 20px;
     font-weight: bold;
     color: white;
 }
-
 
 .button {
     display: inline-block;
@@ -313,6 +284,7 @@
     margin: 5px;
     vertical-align:middle;
   }
+  
   .button:hover{
     background-color: white;
     color: blue;
