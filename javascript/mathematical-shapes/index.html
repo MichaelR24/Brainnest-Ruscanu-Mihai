@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Diagonal od square
+        let side = 9;
+        let diagonal = Math.sqrt(2) * side;
+        document.write("Diagonal of square is: " + diagonal + "<br>");
+    </script>
+    <script>
+        //Area of triangle
+        let l1=5;
+        let l2=6;
+        let l3=7;
+        let semiP = (l1+l2+l3)/2;
+        let area = Math.sqrt(semiP*(semiP-l1)*(semiP-l2)*(semiP-l3));
+        document.write("Area of triangle is: " + area + "<br>");
+    </script>
+    <script>
+        //Circumference and surface area of a circle
+        let radius = 4;
+        const PI=3.14;
+        let circumference = 2*PI*radius;
+        let surfaceArea = PI*radius*radius;
+        document.write("Circumference of circle is: " + circumference + "<br>");
+        document.write("Surface area of circle is: " + surfaceArea + "<br>");
+
+    </script>
+
+
+</body>
+</html>
