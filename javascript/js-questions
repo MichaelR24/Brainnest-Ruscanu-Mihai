@@ -1,0 +1,138 @@
+1. Name the three ways to declare a variable?
+A: var,let, just by typing the name
+
+2. Which of the three variable declarations should you avoid and why?
+A: var because it is an old way to declare variables
+
+3. What rules should you follow when naming variables?
+A: variable names cannot start with a number, hyphens are not allowed
+
+4. What should you look out for when using the + operator with numbers and
+strings?
+A: it adds numbers and concatenates strings
+
+5. How does the % operator work?
+A: It returns the remainder of the operation
+
+6. Explain the difference between == and ===.
+A: === verifies the type of the variables being compared (both to be the same type, boolean,number,string etc. in order to return true
+)
+
+7. When would you receive a NaN result?
+A: when we have an incorrect or an undefined mathematical operation
+
+8. How do you increment and decrement a number?
+A: i++,i--
+
+9. Explain the difference between prefixing and post-fixing increment/decrement
+operators.
+A: 
+a=0;
+b=++a; // first the incrementation, then the assignment
+-> a is 1, b is 1
+
+a=0;
+b=a++; //first the assignment, then the incrementation
+->a is 1, b is 0
+
+10. What is operator precedence and how is it handled in JS?
+A:  it shows the order in which operations are performed in an mathmematical expression.
+
+11. How do you log information to the console?
+A: console.log();
+
+12. What does unary plus operator do to string representations of integers?
+A: it converts it into a number
+
+13. What are the eight data types in JavaScript?
+A: string, number, boolean, NULL, undefined, BigInt, Symbol, Objects
+
+14. Which data type is NOT primitive?
+A: Object
+
+15. What is the relationship between null and undefined?
+A: 
+
+Null is the intentional absence of the value. 
+Undefined: The value does not exist in the compiler. 
+
+
+16. What is the difference between single, double, and backtick quotes for strings?
+A: There is no difference between simple and double quotes.
+Backticks allow for variable implementation.
+
+17. What is the term for embedding variables/expressions in a string?
+A: String interpolation
+
+18. Which type of quote lets you embed variables/expressions in a string?
+A:Backticks
+
+19. How do you embed variables/expressions in a string?
+A: Using ${…}
+
+20. How do you escape characters in a string?
+A: Using the backslash(\)
+
+21. What is the difference between the slice/substring/substr string methods?
+A:
+substring() - gets a part of the original string and returns it as a new string,based on a startindex and a finalindex
+slice() - the same as substring() but with 2 differences:
+-if startindex is a negative number, then the first character begins from the end of the string 
+-if startindex > endIndex, it returns an empty string
+
+substr() - expects the second parameter as a length instead of an finalindex
+
+22. What are the three logical operators and what do they stand for?
+A: && - AND 
+|| - OR
+! - NOT
+
+23. What are the comparison operators?
+A: <,>,=<,=>
+
+24. What are truthy and falsy values?
+A: Truthy values are values that evaluate to True . Falsy values are values that evaluate to False.
+
+25. What are the falsy values in JavaScript?
+A: false, 0, -0, 0n, "", null, undefined, and NaN.
+
+26. What are conditionals?
+A: are a way to control wether a piece of code runs or not
+
+27. What is the syntax for an if/else conditional?
+A:
+if(){
+}else {}
+
+28. What is the syntax for a switch statement?
+A: 
+switch(expression){
+case value1: code; break;
+case value2: code; break;
+case valuen: code; break;
+default: code; break;
+}
+
+29. What is the syntax for a ternary operator?
+A: condition ? exprIfTrue : exprIfFalse
+
+30. What is nesting?
+A:When you write something inside something else. (a function in another function)
+
+31. What are functions useful for?
+A: reuse code, easy to correct mistakes in code
+
+32. How do you invoke a function?
+A: myfunction();
+
+33. What are anonymous functions?
+A:a function without a name, which executes immediately, only once
+
+34. What is function scope?
+A: The function scope contains variables that are declared inside a function are called local variables
+
+35. What are return values?
+A: The values a function returns after it is called
+  
+36. What are arrow functions?
+A:A way to write shorter function syntax.
