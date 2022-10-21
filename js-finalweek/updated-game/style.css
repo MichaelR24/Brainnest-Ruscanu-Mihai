@@ -1,0 +1,43 @@
+
+.button{
+    background-color: blue;
+    color: #ffffff;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 26px;
+    
+    cursor: pointer;
+    margin: 10px;
+}
+.button:active{
+    background-color: green;
+    color: #ffffff;    
+    cursor: pointer;
+
+}
+#result-window{
+    width: 30%;
+    height: 80px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+#score{
+    width: 10%;
+    height: 30px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
