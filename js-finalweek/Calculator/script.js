@@ -243,7 +243,7 @@ function storeValue(value){
     }
     else if(displayContent.length==0 && (value ==='+' || value==='-' || value==='*' || value==='/' || value==='%' || value==='.')){
 
-        displayStored.textContent = "Insert a number first";
+        displayStored.textContent = "Error: Insert a number first";
         let buttons = document.querySelectorAll('.off');
         buttons.forEach((button) => {
             button.disabled=true;
