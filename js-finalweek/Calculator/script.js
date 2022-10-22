@@ -148,13 +148,7 @@ for (let i=1;i<=20;i++){
         }
         numbersDiv.appendChild(Button);
         Button.appendChild(buttonInnerDiv);
-        
-        
-
-   
-    
 }
-
 
 //Application logic
 
