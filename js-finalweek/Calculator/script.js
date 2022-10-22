@@ -19,17 +19,13 @@ calcContainer.appendChild(numbersDiv);
 for (let i=1;i<=20;i++){
     const Button = document.createElement('button');
     Button.classList.add('calculator-button');
-
     const buttonInnerDiv=document.createElement('div');
     
-
     switch (i) {
         case 1:
-            
                 Button.setAttribute('onclick','clearDisplay();regain()');
                 Button.classList.add('calculator-button','operator-signs');
                 buttonInnerDiv.textContent = "AC";
-            
             break;
         case 2:
             Button.setAttribute('onclick','addMinus();ability()');
@@ -139,11 +135,10 @@ for (let i=1;i<=20;i++){
             buttonInnerDiv.textContent = "Backspace";
             break;
         case 20:
-            Button.setAttribute('onclick','storeValue(this.value);regain()');
+            Button.setAttribute('onclick','storeValue(this.value);internalError()');
             Button.setAttribute('value','=');
             Button.classList.add('calculator-button','off','number');
             buttonInnerDiv.textContent = "=";
-            
             break;
         }
         numbersDiv.appendChild(Button);
@@ -194,7 +189,23 @@ function operate(operator,num1,num2){
     }
     return result;
 }
+function internalError(){
+    let displayStored = document.getElementById('numbers-display');
+    let displayContent =  displayStored.innerText; 
+    let numberButtons = document.querySelectorAll('.calculator-button');
 
+    if(displayContent=='Internal error'){
+        numberButtons.forEach((button) => {
+            button.disabled=true;
+        });
+        numberButtons[0].disabled=false;
+        numberButtons[19].disabled=false;
+    }else if(displayContent==''){
+        numberButtons.forEach((button) => {
+            button.disabled=false;
+        });
+    }
+}
 function ability(){
     
     let displayStored = document.getElementById('numbers-display');
@@ -265,12 +276,12 @@ function storeValue(value){
         sum=operate(value,parseInt(sum),parseInt(num));
         }
         displayStored.textContent += value; 
-}
+    }
 
-if(value=='=' && displayContent.length==0){
+    if(value=='=' && displayContent.length==0){
     displayStored.textContent = "Internal error";
-}
-else{ 
+    }
+    else{ 
     if(value=='=' && displayContent.length>0){
     num=displayContent.slice(index1+1);
     sum=operate(displayContent[index1],parseInt(sum),parseInt(num));
@@ -300,6 +311,7 @@ function addMinus(){
     let displayContent =  display.innerText;
     display.textContent = '-'+displayContent;
 }
+
 document.addEventListener('keypress', (event) => {
     switch(event.key){
         case '1':
