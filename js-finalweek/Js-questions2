@@ -1,0 +1,90 @@
+1. Why is it important to write clean code?
+A:  Because it will be easier to understand in the future when you read it again , and also for your colleagues
+
+2. What is the difference between good comments and bad comments?
+A:Good comments explain the logic of the code, straight to the point, bad comments contain unnecessary information
+
+3. What is an array?
+A: A special variable, which can hold more than one value
+
+4. What are arrays useful for?
+A: To store a list of items
+
+5. How do you access an array element?
+A: arr[index]
+
+6. How do you change an array element?
+A: arr[index]=newvalue;
+
+7. What are some useful array properties?
+A: .length
+
+8. What are some useful array methods?
+A: .sort, .pop,.push,.shift
+
+9. What are loops useful for?
+A: To exectute a piece of code more times
+
+10.What is the break statement?
+A: The break statement exits the current iteration of a loop
+
+11. What is the continue statement?
+A: The loop statement skips the current iteration
+
+12.What is the DOM?
+A: A language-independent interface that treats an XML or HTML document as a tree structure
+
+13.How do you target the nodes you want to work with?
+A: using element.querySelector, .getElementbyId,etc
+
+14.How do you create an element in the DOM?
+A: document.createElement
+
+15.How do you add an element to the DOM?
+A: Using appendChild(childNode) , insertBefore(newNode, referenceNode) 
+
+16.How do you remove an element from the DOM?
+A: Using parentNode.removeChild(child) 
+
+17.How can you alter an element in the DOM?
+A: Using set.Attribute
+
+18.When adding text to a DOM element, should you use textContent or innerHTML? 
+A: textContent, it is more secure
+
+19. Where should you include your JavaScript tag in your HTML file when working
+with DOM nodes?
+A:At the end of body tag
+
+20.How do “events” and “listeners” work?
+A: using .addEventListener / onclick
+
+21.What are three ways to use events in your code?
+A: inline, using a property, or using a listener
+
+22.Why are event listeners the preferred way to handle events?
+A: Because the code is easier to change in the future
+           
+23.What are the benefits of using named functions in your listeners?
+A: helps keep your code more DRY 
+
+24.How do you attach listeners to groups of nodes?
+A: using .forEach
+
+25. What is the difference between the return values of querySelector and
+querySelectorAll?
+A: querySelectorAll returns an array of value, querySelector return the first value with the certain condition
+
+26.What does a “nodelist” contain?
+A: all of the items matching a specific selector 
+
+27.Explain the difference between “capture” and “bubbling”. 
+A:
+Bubbling: When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
+Capture: The event is first captured by the outermost element and propagated to the inner elements.
+
+28.What is the difference between objects and arrays? 
+A: Objects represent “things” with characteristics, while arrays create and store lists of data in a single variable.
+
+29.How do you access object properties?
+A: obj[propertyname];
